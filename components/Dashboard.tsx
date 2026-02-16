@@ -69,7 +69,7 @@ export function Dashboard() {
 
   return (
     <section id="dashboard" className="py-20 bg-gray-50 dark:bg-gray-900/50">
-      <div className="container">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-4xl font-bold text-gray-900 dark:text-white">
             Your AI Workspace
@@ -79,7 +79,7 @@ export function Dashboard() {
           </p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
           {/* Left Column: Upload and Actions */}
           <div className="space-y-6 lg:col-span-1">
             <UploadArea onFileSelect={handleFileSelect} />

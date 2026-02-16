@@ -20,7 +20,7 @@ export function Hero() {
         <div className="absolute -bottom-8 left-20 h-72 w-72 animate-pulse rounded-full bg-pink-300 opacity-20 blur-3xl animation-delay-4000 dark:bg-pink-600"></div>
       </div>
 
-      <div className="container relative z-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="mb-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white md:text-6xl lg:text-7xl">
             Transform Your Ideas into{" "}
