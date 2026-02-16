@@ -10,7 +10,7 @@ export function TrustedBy() {
 
   return (
     <section className="py-16">
-      <div className="container">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="mb-8 text-center text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
           Trusted by leading companies
         </p>
